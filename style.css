@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+ height: 100vh;
+ display: grid;
+ place-items: center;
+ background: #acd2fb;
+}
+
+.card{
+ width: 400px;
+ height: 200px;
+ padding: 30px;
+ background-color: #13263a;
+ border-radius: 10px;
+ clip-path: circle(24.2% at 100% 0);
+ transition: all 0.8s;
+}
+
+.card h1{
+ padding-bottom: 10px;
+ color: rgb(41, 240, 134);
+}
+.card p{
+ padding-bottom: 10px;
+ color: #fff;
+ line-height: 150%;
+}
+.card h3{
+ padding-bottom: 10px;
+ color: #fff;
+}
+
+.card:hover{
+ clip-path: circle(141.4% at 100% 0);
+}
